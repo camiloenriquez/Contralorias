@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Contralorias</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_maps_cuadritos">Map</string>
+    <string name="ctun">Contraloria Municipal de Tunja</string>
+    <string name="cp">Contraloria Municipal de Pasto</string>
+    <string name="cAra">Contraloria Departamental Arauca</string>
+    <string name="cBuc">Contraloría Municipal de Bucaramanga</string>
+    <string name="cNei">Contraloría Municipal de Neiva</string>
+    <string name="cMan">Contraloría Municipal de Manizales</string>
+    <string name="cCu">Contraloría Municipal de Cucuta</string>
+    <string name="cBo">Contraloría Municipal de Bogota</string>
+    <string name="cCal">Contraloría General Santiago de Cali</string>
+    <string name="cVil">Contraloría Municipal de Villavicencio</string>
+    <string name="dP">Direccion: Calle 18A No. 25-64</string>
+    <string name="tP">Telefono:  7225167</string>
+    <string name="dT">Direccion:  Calle 20 No. 8-20</string>
+    <string name="tT">Telefono:  742 5565</string>
+    <string name="dA">Direccion: Cra 22 #19-27</string>
+    <string name="tA">Telefono:  855 4889</string>
+    <string name="dB">Direccion: Cra. 20 No. 25-72</string>
+    <string name="tB">Telefono:  281 1650</string>
+    <string name="dN">Direccion: Calle 6 No. 5-33</string>
+    <string name="tN">Telefono: 871 9022</string>
+    <string name="dMa">Direccion: Calle 21 No. 23-22</string>
+    <string name="tM">Telefono:  8803449</string>
+    <string name="dCu">Direccion: Av. 2 No. 14-68</string>
+    <string name="tCu">Telefono: 571 5756</string>
+    <string name="dBo">Direccion: Cra. 60 No. 24-09</string>
+    <string name="tBo">Telefono: 6477000</string>
+    <string name="dCa">Direccion: Av. 3Nor No 61-02</string>
+    <string name="tCa">Telefono: 655 2983</string>
+    <string name="dVi">Direccion: Av. 40 Calle 15</string>
+    <string name="tVi">Telefono: 6701371</string>
+    <string name="sTW">Sitio Web</string>
+    <string name="map">Ubicación de Contralorias</string>
+    <string name="inf">Informacion</string>
+    <string name="ac">Acerca De</string>
+    <string name="cCo">Contralorias de Colombia</string>
+    <string name="no">Nombre</string>
+    <string name="co">Correo</string>
+    <string name="cont">Contacto</string>
+    <string name="hA">Horario de Atencion</string>
+    <string name="cl">Cerrar</string>
+    <string name="Cerrar">Cerrar</string>
+    <string name="SobreNosotros">Sobre Nosotros...</string>
+    <string name="Salir">Salir</string>
+    <string name="salirDeLaAplicacion">Salir de la aplicacion</string>
+    <string name="PresentadoPor">Presentado por </string>
+    <string name="dep">Departamento</string>
+    <string name="ct">Capital</string>
+
+    <string name="dr">Direccion</string>
+
+    <string name="tll">Telefono</string>
+    <string name="em">Correo</string>
+    <string name="dtt">Lista de Contralorias</string>
+
+
+</resources>

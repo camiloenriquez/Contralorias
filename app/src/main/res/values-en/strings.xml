@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contralory</string>
+
+    <string name="ctun">Municipal Comptroller of Tunja</string>
+    <string name="cp">" Municipal Comptrollership of Pasto"</string>
+    <string name="cAra">Departmental Comptroller Arauca</string>
+    <string name="cBuc">Municipal Comptroller of Bucaramanga</string>
+    <string name="cNei">Municipal Comptroller of Neiva</string>
+    <string name="cMan">Municipal Comptroller of Manizales</string>
+    <string name="cCu">Municipal Comptroller of Cucuta</string>
+    <string name="cBo">Municipal Comptroller of Bogota</string>
+    <string name="cCal">Comptroller General Santiago de Cali</string>
+    <string name="cVil">Municipal Comptroller of Villavicencio</string>
+    <string name="dP">Address: Calle 18A No. 25-64</string>
+    <string name="tP">Telephone: 7225167</string>
+    <string name="dT">Address: Calle 20 No. 8-20</string>
+    <string name="tT">Telephone: 742 5565</string>
+    <string name="dA">Address: Cra 22 # 19-27</string>
+    <string name="tA">Telephone: 855 4889</string>
+    <string name="dB">Address: Cra. 20 No. 25-72</string>
+    <string name="tB">Telephone: 281 1650</string>
+    <string name="dN">Address: Calle 6 No. 5-33</string>
+    <string name="tN">Telephone: 871 9022</string>
+    <string name="dMa">Address: Calle 21 No. 23-22</string>
+    <string name="tM">Telephone: 8803449</string>
+    <string name="dCu">Address: Av. 2 No. 14-68</string>
+    <string name="tCu">Telephone: 571 5756</string>
+    <string name="dBo">Address: Cra. 60 No. 24-09</string>
+    <string name="tBo">Telephone: 6477000</string>
+    <string name="dCa">Address: Av. 3Nor No 61-02</string>
+    <string name="tCa">Telephone: 655 2983</string>
+    <string name="dVi">Address: Av. 40 Calle 15</string>
+    <string name="tVi">Telephone: 6701371</string>
+    <string name="sTW">Website</string>
+    <string name="map">Comptrollership Location</string>
+    <string name="inf">Information</string>
+    <string name="ac">About</string>
+    <string name="cCo">Comptrollerships of Colombia</string>
+    <string name="no">Name</string>
+    <string name="co">Mail</string>
+    <string name="cont">Contact</string>
+    <string name="hA">Hours of Service</string>
+    <string name="cl">Close</string>
+    <string name="Cerrar">Close</string>
+    <string name="SobreNosotros">About us</string>
+    <string name="Salir">Exit</string>
+    <string name="salirDeLaAplicacion">Exit in the app</string>
+    <string name="PresentadoPor">Presented by</string>
+    <string name="dep">Departament </string>
+    <string name="ct">Capital </string>
+    <string name="dr">Address </string>
+    <string name="tll">Phone</string>
+    <string name="em">Email</string>
+    <string name="dtt">List of Comptrollerships</string>
+
+
+
+
+</resources>

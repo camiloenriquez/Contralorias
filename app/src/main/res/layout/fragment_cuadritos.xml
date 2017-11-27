@@ -1,0 +1,887 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:background="#eae0e0">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                >
+
+                <LinearLayout
+                    android:padding="6dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="149dp"
+                        android:layout_height="134dp"
+                        android:scaleType="centerCrop"
+                        card_view:srcCompat="@drawable/ttttttttt" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:text="@string/cp"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/dP"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/tP"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/bmap2"
+                                style="@android:style/Widget.Holo.ImageButton"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                card_view:srcCompat="@android:drawable/ic_dialog_map" />
+
+                            <Button
+                                android:id="@+id/bvm2"
+                                style="@android:style/Widget.Holo.Button"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:text="@string/sTW" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="centerCrop"
+                    >
+
+                    <LinearLayout
+                        android:padding="6dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="151dp"
+                            android:layout_height="134dp"
+                            android:scaleType="centerCrop"
+                            card_view:srcCompat="@drawable/t" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif"
+                                android:gravity="center"
+                                android:text="@string/ctun"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif"
+                                android:text="@string/dT"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif"
+                                android:text="@string/tT"
+                                android:textSize="14sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/bmap3"
+                                    style="@android:style/Widget.Holo.ImageButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    card_view:srcCompat="@android:drawable/ic_dialog_map" />
+
+                                <Button
+                                    android:id="@+id/bvm3"
+                                    style="@android:style/Widget.Holo.Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:text="@string/sTW" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerCrop"
+                        >
+
+                        <LinearLayout
+                            android:padding="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="154dp"
+                                android:layout_height="134dp"
+                                android:scaleType="centerCrop"
+                                card_view:srcCompat="@drawable/tt" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif"
+                                    android:gravity="center"
+                                    android:text="@string/cAra"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif"
+                                    android:text="@string/dA"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif"
+                                    android:text="@string/tA"
+                                    android:textSize="14sp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <ImageButton
+                                        android:id="@+id/bmap4"
+                                        style="@android:style/Widget.Holo.ImageButton"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        card_view:srcCompat="@android:drawable/ic_dialog_map" />
+
+                                    <Button
+                                        android:id="@+id/bvm4"
+                                        style="@android:style/Widget.Holo.Button"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+                                        android:text="@string/sTW" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </android.support.v7.widget.CardView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:scaleType="centerCrop"
+                            >
+
+                            <LinearLayout
+                                android:padding="6dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="157dp"
+                                    android:layout_height="134dp"
+                                    android:scaleType="centerCrop"
+                                    card_view:srcCompat="@drawable/tttt" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical"
+                                    >
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="sans-serif"
+                                        android:gravity="center"
+                                        android:text="@string/cBuc"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="sans-serif"
+                                        android:text="@string/dB"
+                                        android:textSize="14sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="sans-serif"
+                                        android:text="@string/tB"
+                                        android:textSize="14sp" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <ImageButton
+                                            android:id="@+id/bmap5"
+                                            style="@android:style/Widget.Holo.ImageButton"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            card_view:srcCompat="@android:drawable/ic_dialog_map" />
+
+                                        <Button
+                                            android:id="@+id/bvm5"
+                                            style="@android:style/Widget.Holo.Button"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+
+                                            android:text="@string/sTW" />
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:scaleType="centerCrop"
+                                >
+
+                                <LinearLayout
+                                    android:padding="6dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="156dp"
+                                        android:layout_height="134dp"
+                                        android:scaleType="centerCrop"
+                                        card_view:srcCompat="@drawable/ttttt" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical"
+                                        >
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:fontFamily="sans-serif"
+                                            android:gravity="center"
+                                            android:text="@string/cNei"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:fontFamily="sans-serif"
+                                            android:text="@string/dN"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:fontFamily="sans-serif"
+                                            android:text="@string/tN"
+                                            android:textSize="14sp" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal">
+
+                                            <ImageButton
+                                                android:id="@+id/bmap6"
+                                                style="@android:style/Widget.Holo.ImageButton"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                card_view:srcCompat="@android:drawable/ic_dialog_map" />
+
+                                            <Button
+                                                android:id="@+id/bvm6"
+                                                style="@android:style/Widget.Holo.Button"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+
+                                                android:text="@string/sTW" />
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+
+
+                            </android.support.v7.widget.CardView>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+
+                                <android.support.v7.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:scaleType="centerCrop"
+                                    >
+
+                                    <LinearLayout
+                                        android:padding="6dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="157dp"
+                                            android:layout_height="134dp"
+                                            android:scaleType="centerCrop"
+                                            card_view:srcCompat="@drawable/m" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="sans-serif"
+                                                android:gravity="center"
+                                                android:text="@string/cMan"
+                                                android:textSize="16sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="sans-serif"
+                                                android:text="@string/dMa"
+                                                android:textSize="14sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="sans-serif"
+                                                android:text="Telefono:  8803449"
+                                                android:textSize="14sp" />
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:orientation="horizontal">
+
+                                                <ImageButton
+                                                    android:id="@+id/bmap7"
+                                                    style="@android:style/Widget.Holo.ImageButton"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    card_view:srcCompat="@android:drawable/ic_dialog_map" />
+
+                                                <Button
+                                                    android:id="@+id/bvm7"
+                                                    style="@android:style/Widget.Holo.Button"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+
+                                                    android:text="@string/sTW" />
+
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+
+                                </android.support.v7.widget.CardView>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+
+                                    <android.support.v7.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:scaleType="centerCrop"
+                                        >
+
+                                        <LinearLayout
+                                            android:padding="6dp"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+
+                                            <ImageView
+                                                android:layout_width="154dp"
+                                                android:layout_height="134dp"
+                                                android:scaleType="centerCrop"
+                                                card_view:srcCompat="@drawable/mmm" />
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:orientation="vertical"
+                                                >
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:fontFamily="sans-serif"
+                                                    android:gravity="center"
+                                                    android:text="@string/cCu"
+                                                    android:textSize="16sp"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:fontFamily="sans-serif"
+                                                    android:text="@string/dCu"
+                                                    android:textSize="14sp"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:fontFamily="sans-serif"
+                                                    android:text="@string/tCu"
+                                                    android:textSize="14sp" />
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:orientation="horizontal">
+
+                                                    <ImageButton
+                                                        android:id="@+id/bmap8"
+                                                        style="@android:style/Widget.Holo.ImageButton"
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        card_view:srcCompat="@android:drawable/ic_dialog_map" />
+
+                                                    <Button
+                                                        android:id="@+id/bvm8"
+                                                        style="@android:style/Widget.Holo.Button"
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+
+                                                        android:text="@string/sTW" />
+
+                                                </LinearLayout>
+
+                                            </LinearLayout>
+                                        </LinearLayout>
+
+
+                                    </android.support.v7.widget.CardView>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_marginTop="10dp"
+                                            android:scaleType="centerCrop"
+                                            >
+
+                                            <LinearLayout
+                                                android:padding="6dp"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="horizontal">
+
+                                                <ImageView
+                                                    android:layout_width="155dp"
+                                                    android:layout_height="134dp"
+                                                    android:scaleType="centerCrop"
+                                                    card_view:srcCompat="@drawable/mmmm" />
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:orientation="vertical"
+                                                    >
+
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:fontFamily="sans-serif"
+                                                        android:gravity="center"
+                                                        android:text="@string/cBo"
+                                                        android:textSize="16sp"
+                                                        android:textStyle="bold" />
+
+                                                    <TextView
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:fontFamily="sans-serif"
+                                                        android:text="@string/dBo"
+                                                        android:textSize="14sp"
+                                                        android:textStyle="bold" />
+
+                                                    <TextView
+
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:fontFamily="sans-serif"
+                                                        android:text="@string/tBo"
+                                                        android:textSize="14sp" />
+
+                                                    <LinearLayout
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:orientation="horizontal">
+
+                                                        <ImageButton
+                                                            android:id="@+id/bmap9"
+                                                            style="@android:style/Widget.Holo.ImageButton"
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            card_view:srcCompat="@android:drawable/ic_dialog_map" />
+
+                                                        <Button
+                                                            android:id="@+id/bvm9"
+                                                            style="@android:style/Widget.Holo.Button"
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+
+                                                            android:text="@string/sTW" />
+
+                                                    </LinearLayout>
+
+                                                </LinearLayout>
+                                            </LinearLayout>
+
+
+                                        </android.support.v7.widget.CardView>
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+
+                                            <android.support.v7.widget.CardView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="10dp"
+                                                android:layout_marginTop="10dp"
+                                                android:scaleType="centerCrop"
+                                                >
+
+                                                <LinearLayout
+                                                    android:padding="6dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:orientation="horizontal">
+
+                                                    <ImageView
+                                                        android:layout_width="157dp"
+                                                        android:layout_height="134dp"
+                                                        android:scaleType="centerCrop"
+                                                        card_view:srcCompat="@drawable/ccc" />
+
+                                                    <LinearLayout
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:layout_weight="1"
+                                                        android:orientation="vertical"
+                                                        >
+
+                                                        <TextView
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:fontFamily="sans-serif"
+                                                            android:gravity="center"
+                                                            android:text="@string/cCal"
+                                                            android:textSize="16sp"
+                                                            android:textStyle="bold" />
+
+                                                        <TextView
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:fontFamily="sans-serif"
+                                                            android:text="@string/dCa"
+                                                            android:textSize="14sp"
+                                                            android:textStyle="bold" />
+
+                                                        <TextView
+
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:fontFamily="sans-serif"
+                                                            android:text="@string/tCa"
+                                                            android:textSize="14sp" />
+
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="horizontal">
+
+                                                            <ImageButton
+                                                                android:id="@+id/bmap10"
+                                                                style="@android:style/Widget.Holo.ImageButton"
+                                                                android:layout_width="wrap_content"
+                                                                android:layout_height="wrap_content"
+                                                                card_view:srcCompat="@android:drawable/ic_dialog_map" />
+
+                                                            <Button
+                                                                android:id="@+id/bvm10"
+                                                                style="@android:style/Widget.Holo.Button"
+                                                                android:layout_width="wrap_content"
+                                                                android:layout_height="wrap_content"
+
+                                                                android:text="@string/sTW" />
+
+                                                        </LinearLayout>
+
+                                                    </LinearLayout>
+                                                </LinearLayout>
+
+
+                                            </android.support.v7.widget.CardView>
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="vertical">
+
+
+                                                <android.support.v7.widget.CardView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:layout_marginRight="10dp"
+                                                    android:layout_marginTop="10dp"
+                                                    android:scaleType="centerCrop"
+                                                    >
+
+                                                    <LinearLayout
+                                                        android:padding="6dp"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:orientation="horizontal">
+
+                                                        <ImageView
+                                                            android:layout_width="158dp"
+                                                            android:layout_height="134dp"
+                                                            android:scaleType="centerCrop"
+                                                            card_view:srcCompat="@drawable/vvv" />
+
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:layout_weight="1"
+                                                            android:orientation="vertical"
+                                                            >
+
+                                                            <TextView
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:fontFamily="sans-serif"
+                                                                android:gravity="center"
+                                                                android:text="@string/cVil"
+                                                                android:textSize="16sp"
+                                                                android:textStyle="bold" />
+
+                                                            <TextView
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:fontFamily="sans-serif"
+                                                                android:text="@string/dVi"
+                                                                android:textSize="14sp"
+                                                                android:textStyle="bold" />
+
+                                                            <TextView
+
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:fontFamily="sans-serif"
+                                                                android:text="@string/tVi"
+                                                                android:textSize="14sp" />
+
+                                                            <LinearLayout
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="match_parent"
+                                                                android:orientation="horizontal">
+
+                                                                <ImageButton
+                                                                    android:id="@+id/bmap11"
+                                                                    style="@android:style/Widget.Holo.ImageButton"
+                                                                    android:layout_width="wrap_content"
+                                                                    android:layout_height="wrap_content"
+                                                                    card_view:srcCompat="@android:drawable/ic_dialog_map" />
+
+                                                                <Button
+                                                                    android:id="@+id/bvm11"
+                                                                    style="@android:style/Widget.Holo.Button"
+                                                                    android:layout_width="wrap_content"
+                                                                    android:layout_height="wrap_content"
+
+                                                                    android:text="@string/sTW" />
+
+                                                            </LinearLayout>
+
+                                                        </LinearLayout>
+                                                    </LinearLayout>
+
+
+                                                </android.support.v7.widget.CardView>
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

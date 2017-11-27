@@ -1,0 +1,231 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context="com.example.camil.navgooglemap.InfoFragment">
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/fondo_gradient"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp">
+
+
+        <TextView
+            android:id="@+id/zonaTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="205dp"
+            android:layout_y="66dp"
+            android:text="Camilo Enriquez H"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/zonaTit3"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_x="206dp"
+            android:layout_y="141dp"
+            android:text="3148428084"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/zonaTit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="200dp"
+            android:layout_y="104dp"
+            android:text="Hoenriquez@umariana.edu"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/accidentesMotoTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="134dp"
+            android:layout_y="65dp"
+            android:text="Nombre"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/accidentesCarroTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="135dp"
+            android:layout_y="103dp"
+            android:text="Correo"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/accidentesCarroTit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="136dp"
+            android:layout_y="142dp"
+            android:text="Contacto"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="125dp"
+            android:layout_height="113dp"
+            android:layout_x="9dp"
+            android:layout_y="57dp"
+            android:background="@drawable/yo" />
+
+
+        <TextView
+            android:id="@+id/zonaTit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="204dp"
+            android:layout_y="203dp"
+            android:text="Daniela Gonzalez M"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/zonaTit31"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_x="206dp"
+            android:layout_y="269dp"
+            android:text="3128807014"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/zonaTit21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="204dp"
+            android:layout_y="239dp"
+            android:text="Danigonzalez@umariana.edu"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/accidentesMotoTit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="137dp"
+            android:layout_y="203dp"
+            android:text="Nombre"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/accidentesCarroTit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="132dp"
+            android:layout_y="234dp"
+            android:text="Correo"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/accidentesCarroTit21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="134dp"
+            android:layout_y="267dp"
+            android:text="Contacto:"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="125dp"
+            android:layout_height="115dp"
+            android:layout_x="10dp"
+            android:layout_y="189dp"
+            android:background="@drawable/dani" />
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_above="@+id/button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="37dp"
+            android:layout_x="50dp"
+            android:layout_y="320dp"
+            android:background="@drawable/marina" />
+
+        <Button
+            android:id="@+id/close"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_x="74dp"
+            android:layout_y="428dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="@string/Cerrar" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="155dp"
+            android:layout_height="37dp"
+            android:layout_x="123dp"
+            android:layout_y="7dp"
+            android:text="@string/PresentadoPor"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="12dp" />
+
+
+    </AbsoluteLayout>
+</android.support.constraint.ConstraintLayout>
